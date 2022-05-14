@@ -21,7 +21,7 @@ jobs:
         java-version: '11'
         distribution: 'temurin'
         cache: maven
-    - name: Build with Maven
+    - name: Build with Maven and test the file
       run: mvn -B package --file pom.xml
     - name: Build and Push Docker image
       uses: mr-smithers-excellent/docker-build-push@v5
