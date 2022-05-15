@@ -33,5 +33,5 @@ jobs:
       with:
         context: .
         push: true
-        tags: shantanukamalapurkar/my-hello-world:latest
+        tags: docker-repo/my-hello-world:latest
         
