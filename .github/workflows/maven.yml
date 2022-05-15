@@ -33,5 +33,5 @@ jobs:
       with:
         context: .
         push: true
-        tags: shantanukamalapurkar/my-hello-world-latest, shantanukamalapurkar / my-hello-world:1.0
+        tags: shantanukamalapurkar/my-hello-world-latest
         
